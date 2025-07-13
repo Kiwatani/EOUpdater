@@ -1,0 +1,27 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build-debug",
+      "command": "msbuild",
+      "type": "process",
+      "args": [
+        "EOUpdater.sln",
+        "/property:Configuration=Debug"
+      ],
+      "group": "build",
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "build-release",
+      "command": "msbuild",
+      "type": "process",
+      "args": [
+        "EOUpdater.sln",
+        "/property:Configuration=Release"
+      ],
+      "group": "build",
+      "problemMatcher": "$msCompile"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+C:\Users\1hiro\source\repos\EOUpdater\EOUpdater\bin\Debug\EOUpdater.exe.config
+C:\Users\1hiro\source\repos\EOUpdater\EOUpdater\bin\Debug\EOUpdater.exe
+C:\Users\1hiro\source\repos\EOUpdater\EOUpdater\bin\Debug\EOUpdater.pdb
+C:\Users\1hiro\source\repos\EOUpdater\EOUpdater\obj\Debug\EOUpdater.csproj.AssemblyReference.cache
+C:\Users\1hiro\source\repos\EOUpdater\EOUpdater\obj\Debug\EOUpdater.EOUpdater.resources
+C:\Users\1hiro\source\repos\EOUpdater\EOUpdater\obj\Debug\EOUpdater.Properties.Resources.resources
+C:\Users\1hiro\source\repos\EOUpdater\EOUpdater\obj\Debug\EOUpdater.csproj.GenerateResource.cache
+C:\Users\1hiro\source\repos\EOUpdater\EOUpdater\obj\Debug\EOUpdater.csproj.CoreCompileInputs.cache
+C:\Users\1hiro\source\repos\EOUpdater\EOUpdater\obj\Debug\EOUpdater.exe
+C:\Users\1hiro\source\repos\EOUpdater\EOUpdater\obj\Debug\EOUpdater.pdb
+C:\Users\1hiro\source\repos\EOUpdater\EOUpdater\obj\Debug\EOUpdater.exe.config

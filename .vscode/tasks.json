@@ -1,0 +1,19 @@
+{
+  "version": "2.0.0",
+  "configurations": [
+    {
+      "type": "clr",
+      "request": "launch",
+      "name": "Launch EOUpdater (Debug)",
+      "program": "${workspaceFolder}/EOUpdater/bin/Debug/EOUpdater.exe",
+      "preLaunchTask": "build-debug"
+    },
+    {
+      "type": "clr",
+      "request": "launch",
+      "name": "Launch EOUpdater (Release)",
+      "program": "${workspaceFolder}/EOUpdater/bin/Release/EOUpdater.exe",
+      "preLaunchTask": "build-release"
+    }
+  ]
+}
