@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="EOUpdater.exe" version="1.0.0.1" publicKeyToken="2e6889c5b2196bc8" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Resources\EOUpdater.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="EOUpdater" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="EOUpdater.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC マニフェスト オプション
+          Windows のユーザー アカウント制御のレベルを変更するには、
+          requestedExecutionLevel ノードを以下のいずれかで置換します。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         下位互換性を保つためにファイルおよびレジストリの仮想化を使用する場合、
+         requestedExecutionLevel ノードを削除します。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EOUpdater.exe" size="91104">
+      <assemblyIdentity name="EOUpdater" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>KZE6Z00fQOvxF9PdfJWKPziHPdMd9Ooo9pdj2xRyFvM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="EOUpdater.exe.config" size="1062">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>1QAdmvcfAkFPIbtDGZT91xDJklGWOqvRLLhnLNYY1Xc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\EOUpdater.ico" size="17222">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>NcZMmnrRLLpnOSc75VT1K7qlyQ8bq24Wx0Y2OeFHJVU=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-UF3PTP7\1hiro" issuerKeyHash="a186d61331c2cc41cf7cb7e6bf954b5899c9183c" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>twTuFNP8LSLq3WXafRrqJcKI/Hj0Cuh82vadCj8hTN0=</DigestValue></Reference></SignedInfo><SignatureValue>nNCupJ/ioAoakninpI0Ea1+TaObSyBZkPT0nrT6VlnXPkne03fqzEJ6ylloWr4xOPK9HQFBmT9eM45Z3NG76JB0RSIzTjxbDtBE7tjK5lfHl2pSLvNRQvlRJklGcR76FC9zsWsAvQ8EwD97Q62LPRj+oFah/EWJ9Lp/03/d2Az4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>4q/8NlRbcmuXrxcx8rShIH8yfa9FMcwdK1bmDScTz+q96/4q8v3TUAGILkKmOAquXXTc7JLHPZHtsHceusHt21L07vxi3GvF0Bfuqnj9eTWpK0V6AvvL4UN4BpXtaOJ0DG6YaFrQz+UOm4QFHRZ4/qAT5Mrzr5rOeCcp9sHaUnU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="dd4c213f0a9df6da7ce80af478fc88c225ea1a7dda65ddea222dfcd314ee04b7" Description="" Url=""><as:assemblyIdentity name="EOUpdater.exe" version="1.0.0.1" publicKeyToken="2e6889c5b2196bc8" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-UF3PTP7\1hiro</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>wd7Gbunzkd9jSYKGK5bglBY6N50TTEjyDlPqy9o2IqE=</DigestValue></Reference></SignedInfo><SignatureValue>bBbwF+c+ud6eUZ5/WvzzEeZQnEv9+h1X6+8nRcOtSMDQpKLVl2OuivEK2CKYLtcNgHCmt+9aEWeR0xc6WCtFOcTbG/KME+Tf23E3WLILc47/r/gQmXEQgjyKbqDQldWeSd7nm8GXD9KlW227uu6fcJdshb9kkGl6NDSNPe2wxCI=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>4q/8NlRbcmuXrxcx8rShIH8yfa9FMcwdK1bmDScTz+q96/4q8v3TUAGILkKmOAquXXTc7JLHPZHtsHceusHt21L07vxi3GvF0Bfuqnj9eTWpK0V6AvvL4UN4BpXtaOJ0DG6YaFrQz+UOm4QFHRZ4/qAT5Mrzr5rOeCcp9sHaUnU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQW73m7QA4Yo5Cd1UZWuonojANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAFUARgAzAFAAVABQADcAXAAxAGgAaQByAG8wHhcNMjUwNzIxMTIxNTA4WhcNMjYwNzIxMTgxNTA4WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAFUARgAzAFAAVABQADcAXAAxAGgAaQByAG8wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAOKv/DZUW3Jrl68XMfK0oSB/Mn2vRTHMHStW5g0nE8/qvev+KvL901ABiC5CpjgKrl103OySxz2R7bB3HrrB7dtS9O78YtxrxdAX7qp4/Xk1qStFegL7y+FDeAaV7WjidAxumGha0M/lDpuEBR0WeP6gE+TK86+azngnKfbB2lJ1AgMBAAEwDQYJKoZIhvcNAQELBQADgYEAS1nHP0AUxkivNl4dTGgR5p3baJ6m4Qo9p6nbwUYmsS+p6FYa1YfqM3G4TlcF8FoXxJPkQb8rru7o5RuqExImjvEMBGXb3LIwwweLW+KAhCd/L0yYe/v/rcRAl9CPb6bPubs0dvjHBTy//2bGlxzG2/0tQRSAWmeJlx3qt4gsfDw=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

@@ -133,8 +133,22 @@ namespace EOUpdater
                 // UIの後片付けを行う
                 progressBar1.Visible = false; // プログレスバーを非表示にする
                 labelProgress.Visible = false;
-                ProgressStatus.Visible = false;
+
+                string sourceDirectory = @"Temp/" + Program.dateString + "/ElectronicObserver";
+                string destinationDirectory = Properties.Settings.Default.EOLocation;
+
+                ProgressStatus.Text = "ファイルおよびフォルダの移動中です。まだウィンドウを閉じないでください。";
+                MoveDirectoryContents(sourceDirectory, destinationDirectory);
+
+                if (Directory.GetFiles(sourceDirectory).Length == 0 && Directory.GetDirectories(sourceDirectory).Length == 0)
+                {
+                    Directory.Delete(sourceDirectory);
+                    File.Delete("Temp/" + Program.dateString + ".zip");
+                }
+                labelProgress.Visible = false;
+                MessageBox.Show("アップデートが完了しました。");
             }
+
         }
 
         // 解凍処理を行うメソッド
@@ -168,6 +182,38 @@ namespace EOUpdater
                     progress.Report(processedFiles);
                     progressText.Report($" {processedFiles} / {totalFiles}");
                 }
+            }
+        }
+
+        public static void MoveDirectoryContents(string sourceDir, string destDir)
+        {
+            //--------------------
+            // ファイルの移動 (Copy + Delete)
+            //--------------------
+            string[] files = Directory.GetFiles(sourceDir);
+            foreach (string file in files)
+            {
+                string fileName = Path.GetFileName(file);
+                string destFile = Path.Combine(destDir, fileName);
+
+                File.Copy(file, destFile, true);
+
+                File.Delete(file);
+            }
+
+            //--------------------
+            // サブフォルダの移動
+            //--------------------
+            string[] dirs = Directory.GetDirectories(sourceDir);
+            foreach (string dir in dirs)
+            {
+                string dirName = Path.GetFileName(dir);
+                string destSubDir = Path.Combine(destDir, dirName);
+
+                MoveDirectoryContents(dir, destSubDir);
+
+                // 中身が空になった移動元のサブフォルダを削除する
+                Directory.Delete(dir);
             }
         }
     }

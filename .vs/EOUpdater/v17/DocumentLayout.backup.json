@@ -3,27 +3,38 @@
   "WorkspaceRootPath": "C:\\Users\\1hiro\\source\\repos\\EOUpdater\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4B5C37AD-5405-4EBC-B2BF-CB867E551FED}|EOUpdater\\EOUpdater.csproj|c:\\users\\1hiro\\source\\repos\\eoupdater\\eoupdater\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4B5C37AD-5405-4EBC-B2BF-CB867E551FED}|EOUpdater\\EOUpdater.csproj|c:\\users\\1hiro\\source\\repos\\eoupdater\\eoupdater\\setupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B5C37AD-5405-4EBC-B2BF-CB867E551FED}|EOUpdater\\EOUpdater.csproj|solutionrelative:eoupdater\\setupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B5C37AD-5405-4EBC-B2BF-CB867E551FED}|EOUpdater\\EOUpdater.csproj|C:\\Users\\1hiro\\source\\repos\\EOUpdater\\eoupdater\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B5C37AD-5405-4EBC-B2BF-CB867E551FED}|EOUpdater\\EOUpdater.csproj|solutionrelative:eoupdater\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|EOUpdater||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B5C37AD-5405-4EBC-B2BF-CB867E551FED}|EOUpdater\\EOUpdater.csproj|C:\\Users\\1hiro\\source\\repos\\EOUpdater\\eoupdater\\setupform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B5C37AD-5405-4EBC-B2BF-CB867E551FED}|EOUpdater\\EOUpdater.csproj|solutionrelative:eoupdater\\setupform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4B5C37AD-5405-4EBC-B2BF-CB867E551FED}|EOUpdater\\EOUpdater.csproj|C:\\Users\\1hiro\\source\\repos\\EOUpdater\\eoupdater\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B5C37AD-5405-4EBC-B2BF-CB867E551FED}|EOUpdater\\EOUpdater.csproj|solutionrelative:eoupdater\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B5C37AD-5405-4EBC-B2BF-CB867E551FED}|EOUpdater\\EOUpdater.csproj|C:\\Users\\1hiro\\source\\repos\\EOUpdater\\eoupdater\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4B5C37AD-5405-4EBC-B2BF-CB867E551FED}|EOUpdater\\EOUpdater.csproj|solutionrelative:eoupdater\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|EOUpdater||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{4B5C37AD-5405-4EBC-B2BF-CB867E551FED}|EOUpdater\\EOUpdater.csproj|c:\\users\\1hiro\\source\\repos\\eoupdater\\eoupdater\\setupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4B5C37AD-5405-4EBC-B2BF-CB867E551FED}|EOUpdater\\EOUpdater.csproj|solutionrelative:eoupdater\\setupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4B5C37AD-5405-4EBC-B2BF-CB867E551FED}|EOUpdater\\EOUpdater.csproj|C:\\Users\\1hiro\\source\\repos\\EOUpdater\\eoupdater\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B5C37AD-5405-4EBC-B2BF-CB867E551FED}|EOUpdater\\EOUpdater.csproj|solutionrelative:eoupdater\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B5C37AD-5405-4EBC-B2BF-CB867E551FED}|EOUpdater\\EOUpdater.csproj|c:\\users\\1hiro\\source\\repos\\eoupdater\\eoupdater\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
-      "RelativeMoniker": "D:0:0:{4B5C37AD-5405-4EBC-B2BF-CB867E551FED}|EOUpdater\\EOUpdater.csproj|solutionrelative:eoupdater\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
+      "AbsoluteMoniker": "D:0:0:{4B5C37AD-5405-4EBC-B2BF-CB867E551FED}|EOUpdater\\EOUpdater.csproj|C:\\Users\\1hiro\\source\\repos\\EOUpdater\\eoupdater\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4B5C37AD-5405-4EBC-B2BF-CB867E551FED}|EOUpdater\\EOUpdater.csproj|solutionrelative:eoupdater\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B5C37AD-5405-4EBC-B2BF-CB867E551FED}|EOUpdater\\EOUpdater.csproj|c:\\users\\1hiro\\source\\repos\\eoupdater\\eoupdater\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|a54ad834-9219-4aa6-b589-607af21c3e26"
     }
   ],
   "DocumentGroupContainers": [
@@ -33,7 +44,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -45,58 +56,96 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "SetupForm.cs",
+              "DocumentMoniker": "C:\\Users\\1hiro\\source\\repos\\EOUpdater\\EOUpdater\\SetupForm.cs",
+              "RelativeDocumentMoniker": "EOUpdater\\SetupForm.cs",
+              "ToolTip": "C:\\Users\\1hiro\\source\\repos\\EOUpdater\\EOUpdater\\SetupForm.cs",
+              "RelativeToolTip": "EOUpdater\\SetupForm.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T09:42:26.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SetupForm.cs [\u30C7\u30B6\u30A4\u30F3]",
+              "DocumentMoniker": "C:\\Users\\1hiro\\source\\repos\\EOUpdater\\EOUpdater\\SetupForm.cs",
+              "RelativeDocumentMoniker": "EOUpdater\\SetupForm.cs",
+              "ToolTip": "C:\\Users\\1hiro\\source\\repos\\EOUpdater\\EOUpdater\\SetupForm.cs [\u30C7\u30B6\u30A4\u30F3]",
+              "RelativeToolTip": "EOUpdater\\SetupForm.cs [\u30C7\u30B6\u30A4\u30F3]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T10:43:39.437Z",
+              "EditorCaption": " [\u30C7\u30B6\u30A4\u30F3]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SetupForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\1hiro\\source\\repos\\EOUpdater\\EOUpdater\\SetupForm.Designer.cs",
+              "RelativeDocumentMoniker": "EOUpdater\\SetupForm.Designer.cs",
+              "ToolTip": "C:\\Users\\1hiro\\source\\repos\\EOUpdater\\EOUpdater\\SetupForm.Designer.cs",
+              "RelativeToolTip": "EOUpdater\\SetupForm.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T10:42:20.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\1hiro\\source\\repos\\EOUpdater\\EOUpdater\\Program.cs",
               "RelativeDocumentMoniker": "EOUpdater\\Program.cs",
               "ToolTip": "C:\\Users\\1hiro\\source\\repos\\EOUpdater\\EOUpdater\\Program.cs",
               "RelativeToolTip": "EOUpdater\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-12T12:14:16.578Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\1hiro\\source\\repos\\EOUpdater\\EOUpdater\\Form1.cs",
               "RelativeDocumentMoniker": "EOUpdater\\Form1.cs",
               "ToolTip": "C:\\Users\\1hiro\\source\\repos\\EOUpdater\\EOUpdater\\Form1.cs",
               "RelativeToolTip": "EOUpdater\\Form1.cs",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAUwFsAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-12T12:13:32.443Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "EOUpdater",
               "DocumentMoniker": "C:\\Users\\1hiro\\source\\repos\\EOUpdater\\EOUpdater\\EOUpdater.csproj",
               "RelativeDocumentMoniker": "EOUpdater\\EOUpdater.csproj",
-              "ToolTip": "C:\\Users\\1hiro\\source\\repos\\EOUpdater\\EOUpdater\\EOUpdater.csproj",
-              "RelativeToolTip": "EOUpdater\\EOUpdater.csproj",
+              "ToolTip": "C:\\Users\\1hiro\\source\\repos\\EOUpdater\\EOUpdater\\EOUpdater.csproj*",
+              "RelativeToolTip": "EOUpdater\\EOUpdater.csproj*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-07-12T12:12:25.647Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "C:\\Users\\1hiro\\source\\repos\\EOUpdater\\EOUpdater\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "EOUpdater\\Form1.Designer.cs",
               "ToolTip": "C:\\Users\\1hiro\\source\\repos\\EOUpdater\\EOUpdater\\Form1.Designer.cs",
               "RelativeToolTip": "EOUpdater\\Form1.Designer.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAAAF8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAjwFYAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-12T12:01:35.342Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "Form1.cs [\u30C7\u30B6\u30A4\u30F3]",
               "DocumentMoniker": "C:\\Users\\1hiro\\source\\repos\\EOUpdater\\EOUpdater\\Form1.cs",
               "RelativeDocumentMoniker": "EOUpdater\\Form1.cs",

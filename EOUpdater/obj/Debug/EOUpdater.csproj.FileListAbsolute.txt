@@ -9,3 +9,8 @@ C:\Users\1hiro\source\repos\EOUpdater\EOUpdater\obj\Debug\EOUpdater.csproj.CoreC
 C:\Users\1hiro\source\repos\EOUpdater\EOUpdater\obj\Debug\EOUpdater.exe
 C:\Users\1hiro\source\repos\EOUpdater\EOUpdater\obj\Debug\EOUpdater.pdb
 C:\Users\1hiro\source\repos\EOUpdater\EOUpdater\obj\Debug\EOUpdater.exe.config
+C:\Users\1hiro\source\repos\EOUpdater\EOUpdater\obj\Debug\EOUpdater.SetupForm.resources
+C:\Users\1hiro\source\repos\EOUpdater\EOUpdater\bin\Debug\EOUpdater.exe.manifest
+C:\Users\1hiro\source\repos\EOUpdater\EOUpdater\bin\Debug\EOUpdater.application
+C:\Users\1hiro\source\repos\EOUpdater\EOUpdater\obj\Debug\EOUpdater.exe.manifest
+C:\Users\1hiro\source\repos\EOUpdater\EOUpdater\obj\Debug\EOUpdater.application
